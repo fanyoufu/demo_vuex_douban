@@ -2,8 +2,7 @@
     <ul class="list">
         <li v-for="(item,id) in list" :key="id">
         <a href="./item.html">
-            <!-- <img src="https://images.weserv.nl/?url=http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2566598269.jpg"> -->
-            <img :src="item.images.small">
+             <img :src="'https://images.weserv.nl/?url='+item.images.small">
             <div class="info">
             <h3>{{item.title}}</h3>
             <p>豆瓣评分：{{item.rating.average}}</p>

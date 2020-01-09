@@ -1,8 +1,6 @@
 <template>
     <div class="item">
-        <!-- <img src="https://images.weserv.nl/?url=http://img3.doubanio.com/view/photo/s_ratio_poster/public/p2566598269.jpg" alt=""> -->
-        <img :src="item.images.medium" alt="">
-        
+        <img :src="'https://images.weserv.nl/?url='+item.images.medium">
         <div>
           <p>豆瓣评分：{{item.rating.average}}</p>
           <p>产地：{{item.cuntries}}</p>

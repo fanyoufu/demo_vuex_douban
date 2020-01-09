@@ -36,3 +36,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+###
+```
+git push -f https://github.com/fanyoufu/vuex_douban_demo master:gh-pages
+```
