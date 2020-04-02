@@ -20,6 +20,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 部署到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/fanyoufu/vuex_douban_demo master:gh-pages
+git push -f https://github.com/fanyoufu/demo_vuex_douban master:gh-pages
 
 cd -
